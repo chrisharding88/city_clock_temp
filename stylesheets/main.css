@@ -1,0 +1,68 @@
+﻿body
+{
+    margin: 0;
+    padding:0;
+}
+
+h1,
+h2{
+    text-align:center;
+}
+
+
+
+.dropdown {
+    margin: 0 auto;
+    width: 25%;
+    margin-top:10%;
+}
+
+
+
+.clock,
+.temperature,
+.weather-description{
+    margin-left:38%;
+    box-sizing:border-box;
+    border: 2px solid black;
+    width:400px;
+    margin-top:0.5%;
+    background-color:rgba(0,0,0,0.4);
+    text-align:center;
+}
+
+span{
+    font-size:50px;
+}
+
+
+/***********Background Images*************/
+.los_angeles{
+    background-image:url("../images/los_angeles.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    height: 100%;
+}
+
+.chicago {
+    background-image: url("../images/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.new_york {
+    background-image: url("../images/new_york.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.denver {
+    background-image: url("../images/denver.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
