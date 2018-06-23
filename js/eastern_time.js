@@ -9,11 +9,15 @@ function clock() {
     var hour = fullDate.getHours();
     var minutes = fullDate.getMinutes();
     var seconds = fullDate.getSeconds();
+    var amPM = '';
 
     if (hour === 0) {
         hour = 12;
     } else if (hour > 12) {
+        amPM = 'P.M.';
         hour = hour - 12;
+    } else if (hour < 12) {
+        amPM = 'A.M.';
     }
 
     if (minutes < 10) {
@@ -26,6 +30,7 @@ function clock() {
     document.getElementById('hour').innerHTML = hour;
     document.getElementById('minutes').innerHTML = ":" + minutes;
     document.getElementById('seconds').innerHTML = ":" + seconds;
+    document.getElementById('amPM').innerHTML = amPM;
 
 
 

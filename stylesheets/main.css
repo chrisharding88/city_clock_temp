@@ -1,13 +1,19 @@
-﻿body
+﻿body, html
 {
     margin: 0;
     padding:0;
+    height: 100%;
 }
 
 h1,
-h2{
+.select_city{
     text-align:center;
 }
+
+
+
+
+
 
 
 
@@ -22,17 +28,17 @@ h2{
 .clock,
 .temperature,
 .weather-description{
-    margin-left:38%;
+    margin-left:39%;
     box-sizing:border-box;
     border: 2px solid black;
     width:400px;
     margin-top:0.5%;
-    background-color:rgba(0,0,0,0.4);
+    background-color:rgba(0,0,0,0.5);
     text-align:center;
 }
 
 span{
-    font-size:50px;
+    font-size:60px;
 }
 
 
@@ -50,6 +56,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    height: 100%;
 }
 
 .new_york {
@@ -57,7 +64,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
+    height: 100%;
 }
 
 .denver {
@@ -65,4 +72,5 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    height: 100%;
 }
